@@ -1,0 +1,72 @@
+/* CSS style meant for Little Prince page per the assignment*/
+.quotes {
+    color: red;
+    font-weight: bold;
+}
+
+.emotion {
+    text-decoration: underline;
+}
+
+#assumption {
+    background-color: orange;
+}
+
+#little_prince {
+    width: 350px;
+}
+
+/* Style elements from original html assignment moved to stylesheet*/
+h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #FEC89A;
+}
+
+h2 {
+    margin-bottom: 0;
+    background-color: #FFB5A7;
+    color: #F8EDEB;
+}
+
+button {
+    margin-left: 40%;
+    border-radius: 20%;
+    padding: 3%;
+    background-color: #FCD5CE;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #FFB5A7;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFB5A7;
+}
+
+#top_border, #bottom_border {
+    width: 100%;
+    height: 10%;
+    background-color: #FFB5A7;
+    margin: 2px;
+    padding: 10px;
+}
+
+#content_left, #content_right {
+    width: 49.7%;
+    height: 80%;
+    margin: 5px auto 5px auto;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#courses_heading {
+    border-bottom: thin solid black;
+}
